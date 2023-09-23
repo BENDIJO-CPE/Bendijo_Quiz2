@@ -35,16 +35,7 @@ private int size;
          System.out.println();
      }
     public void display1() throws Exception{
-//         Node node = head;
-//         
-//      
-//            while (node != null){
-//                System.out.println(node.data+"");
-//                node = node.next;
-//     }
-//         System.out.println();
-
-if (size == 0) {
+        if (size == 0) {
             throw new Exception("List is empty");
         }
 
@@ -157,7 +148,7 @@ if (size == 0) {
             int choice = scan.nextInt();
             
                 if (choice  == 1){
-                    mm.insertNode(1000);
+                   mm.insertNode(1000);
                    mm.insertNode(1);
                    mm.insertNode(554);
                    mm.insertNode(234);
